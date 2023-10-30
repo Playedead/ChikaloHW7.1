@@ -40,7 +40,7 @@ public class Main {
     System.out.println();
 
     System.out.println("Задача №4");
-    int[] numbers3 = {1, 3, 4, 6, 8, 10, 11, 13, 15, 18, 19, 20, 23, 25, 27, 30};
+    int[] numbers3 = {1, 3, 4, 6, 8, 10, 11, 13, 15, 18, 19, 20, 23, 25, 27, 59};
     for (int i = 0; i < numbers3.length; i++) {
       if (numbers3[i] % 2 != 0) {
         numbers3[i]++;
