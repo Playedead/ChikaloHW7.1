@@ -48,7 +48,7 @@ public class Main {
     }
     for (int i = 0; i < numbers3.length; i++) {
       System.out.print(numbers3[i]);
-      if (numbers3[i] < numbers3[15]) {
+      if (i < numbers3.length - 1) {
         System.out.print(", ");
       }
     }
